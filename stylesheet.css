@@ -1,5 +1,4 @@
 
-
     *{
         box-sizing: border-box;
         margin: 0%;
@@ -16,6 +15,7 @@
       display: flex;
       justify-content: space-between;
       padding: 38px;
+      
   }
 
   .left-side {
@@ -26,6 +26,7 @@
       margin-right: 20px;
       font-size: 17px;
     text-transform: uppercase;
+    
 }
 
 .nav-link-wrapper {
@@ -106,7 +107,8 @@ border-bottom: 1px solid black;
 
 .img-text-wrapper:hover .subtitle {
     font-weight: 600;
-    color: lightseagreen;
+    font-size: 20px;
+    color: grey;
 }
 
 .img-darken {
@@ -132,4 +134,9 @@ border-bottom: 1px solid black;
 
 .profile-content-wrapper h1 {
     color: lightseagreen;
+}
+
+.subtitle  {
+        text-decoration: none;
+
 }
